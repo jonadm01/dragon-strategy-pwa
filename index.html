@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imperio de Dragones - Estrategia</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background: #12151c; color: #f0f4f8; margin: 0; padding: 16px; }
+    h1 { font-size: 1.4rem; text-align: center; color: #f59e0b; margin-bottom: 16px; }
+    .recursos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; max-width: 480px; margin: 0 auto; }
+    .tarjeta { background: #1e2430; border: 1px solid #334155; border-radius: 10px; padding: 14px; text-align: center; }
+    .nombre { font-size: 0.85rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px; }
+    .valor { font-size: 1.5rem; font-weight: bold; margin-top: 4px; color: #ffffff; }
+  </style>
+</head>
+<body>
+  <h1>Reino Elemental</h1>
+  <div class="recursos">
+    <div class="tarjeta">
+      <div class="nombre">Comida</div>
+      <div class="valor" id="res-comida">500</div>
+    </div>
+    <div class="tarjeta">
+      <div class="nombre">Madera</div>
+      <div class="valor" id="res-madera">500</div>
+    </div>
+    <div class="tarjeta">
+      <div class="nombre">Piedra</div>
+      <div class="valor" id="res-piedra">500</div>
+    </div>
+    <div class="tarjeta">
+      <div class="nombre">Metal</div>
+      <div class="valor" id="res-metal">250</div>
+    </div>
+  </div>
+</body>
+</html>
